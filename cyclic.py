@@ -42,7 +42,7 @@ def find_cycle(lst):
 
 if __name__ == "__main__":
     tup = find_cycle(lst)
-    print(f"cycle start: {tup[0]}")
-    print(f"length: {tup[1]}")
+    print(f"The cycle starts at: {tup[0]}")
+    print(f"The cycle's length is: {tup[1]}")
 
-    llprint(cyclic(10),5)
+#The cycle starts at 17 and its length  is 47060
